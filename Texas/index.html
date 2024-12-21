@@ -12,10 +12,13 @@
         <h1>Varga IPTV</h1>
         <nav>
             <input type="text" id="search" placeholder="Search Channels..." />
+            <label for="dark-mode-toggle">Dark Mode:</label>
+            <input type="checkbox" id="dark-mode-toggle">
         </nav>
     </header>
 
     <main>
+        <div id="loading-spinner"></div>
         <div id="channels-container"></div>
     </main>
 
