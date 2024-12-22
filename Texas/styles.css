@@ -164,11 +164,12 @@ nav input[type="text"] {
 
 /* Loading Spinner */
 #loading-spinner {
-    display: flex;
+/*     display: flex;
     justify-content: center;
     align-items: center;
     height: 100px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5); */
+    display: none;
 }
 
 #loading-spinner::after {
