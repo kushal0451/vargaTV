@@ -181,6 +181,19 @@ nav input[type="text"] {
     animation: spin 1s linear infinite;
 }
 
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
 @keyframes spin {
     from {
         transform: rotate(0deg);
