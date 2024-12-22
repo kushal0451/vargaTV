@@ -3,9 +3,18 @@ document.addEventListener('DOMContentLoaded', function() {
     const channelFolder = './Channels/'; // Folder containing M3U files
 
     const m3uFiles = [
-        'file1.m3u', // Add all your M3U filenames here
-        'file2.m3u',
-        'file3.m3u'
+        'group1.m3u', //please dd the m3u files here
+        'group2.m3u',
+        'gt.m3u',
+        'playlist_india.m3u8',
+        'playlist_japan.m3u8',
+        'playlist_korea.m3u8',
+        'playlist_north_korea.m3u8',
+        'playlist_russia.m3u8',
+        'playlist_usa.m3u8',
+        'playlist_usa_vod.m3u8',
+        'playlist_zz_documentaries_en.m3u8',
+        'playlist_zz_movies.m3u8'
     ];
 
     m3uFiles.forEach(file => {
