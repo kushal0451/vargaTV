@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     const channelsContainer = document.getElementById('channels-container');
 
-    fetch('https://your-bucket-name.s3.amazonaws.com/your-m3u-file.m3u8')
+    fetch('Channels/group1.m3u')
         .then(response => response.text())
         .then(data => {
             const m3uChannels = parseM3U(data);
